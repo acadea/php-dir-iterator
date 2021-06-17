@@ -1,21 +1,21 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "acadea/php_dir_iterator",
+    "description": "A simple PHP library to recursively find all files in a directory.",
     "keywords": [
-        ":vendor_name",
-        "package_slug"
+        "acadea",
+        "php_dir_iterator"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/acadea/php_dir_iterator",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "sam-ngu",
+            "email": "opensource@acadea.io",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^7.4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.17",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Acadea\\DirIterator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Acadea\\DirIterator\\Tests\\": "tests"
         }
     },
     "scripts": {

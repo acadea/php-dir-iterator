@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Acadea\DirIterator\Tests;
 
 use PHPUnit\Framework\TestCase;
 
