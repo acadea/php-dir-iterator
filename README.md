@@ -1,9 +1,9 @@
 # A simple PHP library to recursively find all files in a directory.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/acadea/php_dir_iterator.svg?style=flat-square)](https://packagist.org/packages/acadea/php_dir_iterator)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/acadea/php_dir_iterator/run-tests?label=tests)](https://github.com/acadea/php_dir_iterator/actions?query=workflow%3ATests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/acadea/php_dir_iterator/Check%20&%20fix%20styling?label=code%20style)](https://github.com/acadea/php_dir_iterator/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/acadea/php_dir_iterator.svg?style=flat-square)](https://packagist.org/packages/acadea/php_dir_iterator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/acadea/dir-iterator.svg?style=flat-square)](https://packagist.org/packages/acadea/dir-iterator)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/acadea/dir-iterator/run-tests?label=tests)](https://github.com/acadea/dir-iterator/actions?query=workflow%3ATests+branch%3Amaster)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/acadea/dir-iterator/Check%20&%20fix%20styling?label=code%20style)](https://github.com/acadea/dir-iterator/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/acadea/dir-iterator.svg?style=flat-square)](https://packagist.org/packages/acadea/dir-iterator)
 
 
 
