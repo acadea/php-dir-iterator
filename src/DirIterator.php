@@ -29,6 +29,7 @@ class DirIterator
     }
 
     /**
+     * Iterate through all files in a directory
      * @param string $folderPath
      * @param IterateeCallback $iteratee
      */
@@ -44,7 +45,7 @@ class DirIterator
             while ($it->valid()) {
                 // isDot to make sure it is not current or parent directory
                 //
-                if (!$it->isDot() && $it->isFile() && $it->isReadable() && $it->current()->getExtension() === 'php') {
+                if (!$it->isDot() && $it->isFile() && $it->isReadable()) {
                     $iteratee($it->current(), $it->key());
                 }
 
