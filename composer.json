@@ -15,11 +15,13 @@
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "symfony/finder": "^5.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.17",
         "phpunit/phpunit": "^9.5",
+        "spatie/phpunit-watcher": "^1.23",
         "spatie/ray": "^1.10",
         "vimeo/psalm": "^4.3"
     },
@@ -35,7 +37,11 @@
     },
     "scripts": {
         "psalm": "vendor/bin/psalm",
-        "test": "vendor/bin/phpunit",
+        "test": "vendor/bin/phpunit --colors=always",
+        "test:watch": [
+            "Composer\\Config::disableProcessTimeout",
+            "phpunit-watcher watch < /dev/tty"
+        ],
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
         "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
     },
