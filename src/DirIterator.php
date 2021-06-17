@@ -2,15 +2,11 @@
 
 namespace Acadea\DirIterator;
 
-
-
-
 use Acadea\DirIterator\Contracts\IterateeCallback;
 use Symfony\Component\Finder\Finder;
 
 class DirIterator
 {
-
     /**
      * @param string $folderPath
      * @return \SplFileInfo[]
@@ -24,8 +20,8 @@ class DirIterator
         foreach ($finder as $file) {
             $files[] = $file;
         }
-        return $files;
 
+        return $files;
     }
 
     /**
@@ -45,7 +41,7 @@ class DirIterator
             while ($it->valid()) {
                 // isDot to make sure it is not current or parent directory
                 //
-                if (!$it->isDot() && $it->isFile() && $it->isReadable()) {
+                if (! $it->isDot() && $it->isFile() && $it->isReadable()) {
                     $iteratee($it->current(), $it->key());
                 }
 
@@ -60,10 +56,10 @@ class DirIterator
     public static function map(string $folderPath, callable $iteratee)
     {
         $results = [];
-        DirIterator::iterate($folderPath, function(\SplFileInfo $fileInfo, string $path) use(&$results, $iteratee){
+        DirIterator::iterate($folderPath, function (\SplFileInfo $fileInfo, string $path) use (&$results, $iteratee) {
             $results[] = $iteratee($fileInfo, $path);
         });
+
         return $results;
     }
-
 }
