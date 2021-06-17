@@ -1,11 +1,12 @@
 {
-    "name": "acadea/php_dir_iterator",
+    "name": "acadea/dir-iterator",
     "description": "A simple PHP library to recursively find all files in a directory.",
     "keywords": [
         "acadea",
-        "php_dir_iterator"
+        "php directory iterator",
+        "recursive directory iterator"
     ],
-    "homepage": "https://github.com/acadea/php_dir_iterator",
+    "homepage": "https://github.com/acadea/php-dir-iterator",
     "license": "MIT",
     "authors": [
         {
