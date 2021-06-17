@@ -32,10 +32,9 @@ class DirIterator
     public static function iterate(string $folderPath, callable $iteratee)
     {
         try {
-            $dirIterator = new \recursiveDirectoryIterator($folderPath);
-
+            $dirIterator = new \RecursiveDirectoryIterator($folderPath);
             /** @var \RecursiveDirectoryIterator | \RecursiveIteratorIterator $it */
-            $it = new \recursiveIteratorIterator($dirIterator);
+            $it = new \RecursiveIteratorIterator($dirIterator);
 
             // the valid() method checks if current position is valid eg there is a valid file or directory at the current position
             while ($it->valid()) {
