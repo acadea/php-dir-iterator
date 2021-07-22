@@ -49,6 +49,7 @@ class DirIterator
         } catch (\Exception $e) {
             dump($e);
             echo $e->getMessage();
+
             throw $e;
         }
     }
