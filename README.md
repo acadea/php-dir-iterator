@@ -11,7 +11,7 @@ A lightweight PHP package to recursively iterate through a folder with ease. Bas
 
 ## Support us
 
-We invest a lot of resources into creating open source packages. You can support us subscribing to our [Youtube channel](https://www.youtube.com/channel/UCU5RsUGkVcPM9QvFHyKm1OQ) (we have a lot of tutorials on web development!) or by [joining our Learning Portal](https://acadea.io/learn).
+We invest a lot of resources into creating open source packages. You can support us by subscribing to our [Youtube channel](https://www.youtube.com/channel/UCU5RsUGkVcPM9QvFHyKm1OQ) (we have a lot of tutorials on web development!) or by [joining our Learning Portal](https://acadea.io/learn).
 
 
 
